@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Homework3</string>
+    <string name="country_flags">Country Flags</string>
+    <string name="austria">Austria</string>
+    <string name="poland">Poland</string>
+    <string name="italy">Italy</string>
+    <string name="colombia">Colombia</string>
+    <string name="madagasсar">Madagascar</string>
+    <string name="thailand">Thailand</string>
+    <string name="denmark">Denmark</string>
+    <string name="switzerland">Switzerland</string>
+    <string name="load">Загрузить</string>
+    <string name="addUrl">Введите url картинки</string>
+    <string name="picLink">https://picsum.photos/0</string>
+    <string name="find_picture_by_url">Find picture by url</string>
+</resources>
