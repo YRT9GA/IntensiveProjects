@@ -42,7 +42,7 @@ class ClockView : View {
         if (!isInit) {
             Companion.initClock(this)
         }
-        canvas.drawColor(Color.BLACK)
+        canvas.drawColor(Color.WHITE)
         drawCircle(canvas)
         drawCenter(canvas)
         drawNumeral(canvas)
@@ -92,7 +92,7 @@ class ClockView : View {
 
     private fun drawCircle(canvas: Canvas) {
         paint!!.reset()
-        paint!!.color = Color.GREEN
+        paint!!.color = Color.BLUE
         paint!!.strokeWidth = 5f
         paint!!.style = Paint.Style.STROKE
         paint!!.isAntiAlias = true
