@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:onClick="showToast"
         android:text="@string/button_label_toast"
         android:textColor="@android:color/white"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,11 +23,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:backgroundTint="#3F51B5"
-        android:onClick="countUp"
         android:text="@string/button_label_count"
         android:textColor="@android:color/white"
         app:layout_constraintStart_toStartOf="@+id/button_toast"
-        app:layout_constraintTop_toBottomOf="@+id/zeroButton" />
+        app:layout_constraintTop_toBottomOf="@+id/button_to_zero" />
 
     <TextView
         android:id="@+id/show_count"
@@ -50,11 +48,10 @@
         tools:ignore="RtlCompat" />
 
     <Button
-        android:id="@+id/zeroButton"
+        android:id="@+id/button_to_zero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:onClick="countZero"
         android:backgroundTint="@color/gray"
         android:text="@string/button_zero"
         app:layout_constraintStart_toStartOf="@+id/button_toast"
